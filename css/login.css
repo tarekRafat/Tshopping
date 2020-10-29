@@ -1,0 +1,43 @@
+body {
+  background: rgb(245, 241, 241);
+}
+#logo {
+  font-size: 2.6rem;
+  font-family: "Pattaya", sans-serif;
+  margin-top: 5rem;
+}
+.fa-user,
+.fa-key,
+.fa-phone-alt,
+.fa-envelope {
+  color: white;
+}
+.input-group-text {
+  background: #0b427c;
+}
+#svg1 {
+  width: 100%;
+}
+#me {
+  animation: me 1s ease-in-out infinite alternate;
+}
+@keyframes me {
+  form {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+#door {
+  animation: door 1s ease-in-out infinite alternate 1.5s;
+  transform-origin: bottom;
+}
+@keyframes door {
+  form {
+    transform: rotateY(60deg);
+  }
+  to {
+    transform: rotateY(-60deg);
+  }
+}

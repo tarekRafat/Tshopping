@@ -1,0 +1,148 @@
+#logo {
+  font-size: 2.6rem;
+  font-family: "Pattaya", sans-serif;
+}
+#main-wrapper {
+  background-image: url("../img/bg_main.png");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#main-header {
+  font-size: 3.5rem;
+}
+#img-div {
+  color: lightblue;
+}
+#img-div p {
+  text-align: left;
+  /* padding: 1.5rem; */
+}
+.img-box {
+  background: #051d36;
+  border-bottom: 5px solid #0b427c;
+  transition: all 0.5s ease-in-out;
+}
+.img-pic {
+  width: 100%;
+}
+.img-box:hover {
+  transform: scale(1.1);
+  background: #0b427c;
+  color: white;
+}
+/* icons */
+.fa-bookmark,
+.fa-plus-circle,
+.fa-minus-circle,
+.fa-trash {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.fa-plus-circle {
+  margin-left: 1rem;
+}
+.fa-bookmark:hover,
+.fa-plus-circle:hover,
+.fa-minus-circle:hover {
+  color: #081725;
+}
+.fa-trash:hover {
+  color: rgb(241, 75, 75);
+}
+#navbarResponsive ul li a {
+  color: rgb(37, 37, 37);
+}
+.slider {
+  position: relative;
+  background: #083463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#carouselExampleControls {
+  margin: 2rem 2rem;
+  width: 80%;
+}
+footer {
+  background: #0b427c;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+footer > p {
+  margin: 0 0 30px;
+}
+footer ul {
+  list-style: none;
+  margin: 0 0 16px;
+  padding-right: 12px;
+  min-width: 100px;
+  font-size: 13px;
+}
+footer ul li {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.copy-right {
+  color: white;
+}
+.fa-facebook-square,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram-square {
+  font-size: 1.5rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.icons {
+  margin: 1rem 1rem;
+}
+p {
+  line-height: 2rem;
+}
+textarea {
+  resize: none;
+}
+.img-fluid {
+  width: 3rem;
+  height: 3rem;
+}
+.pay-list li {
+  display: inline;
+  margin-left: 2rem;
+}
+.order-btn {
+  transition: 0.3s ease-out;
+  padding: 1rem 3rem;
+  border: none;
+  cursor: pointer;
+  background: rgb(48, 48, 247);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+.order-btn:hover {
+  background: rgb(20, 20, 20);
+}
+.order-box {
+  color: rgb(124, 124, 124);
+}
+.order-box h4 {
+  font-size: 1rem;
+}
+.cart-alert,
+.alerty {
+  position: fixed;
+  z-index: 1;
+}
